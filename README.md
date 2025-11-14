@@ -37,6 +37,83 @@ West region drives majority of total revenue.
 Standard shipping is the most preferred shipping mode.
 
 Sales and profit show an upward YoY trend with occasional monthly volatility.
+5-Day Sales Forecast – Key Insights
+1. Sales show extreme day-to-day volatility — forecasting is harder than normal.
+
+Your historical line (top chart) is highly noisy, meaning the business doesn’t follow a smooth pattern.
+This usually happens because of:
+
+inconsistent order volumes
+
+promotional spikes
+
+seasonality mixed with random activity
+
+returns and cancellations
+
+Impact:
+The model’s confidence interval becomes wider — which you can clearly see in the shaded forecast area.
+
+**2. The forecast suggests a moderate short-term increase in sales.
+
+In the bottom chart, the yellow forecast line for the upcoming 15 days trends slightly upward, not downward.
+
+So the model expects:
+
+sales to rise
+
+but not dramatically
+
+and with a wide uncertainty band
+
+This is realistic for a store with high noise and no clear seasonality.
+
+3. The confidence interval is large — meaning your future demand is unpredictable.
+
+The shaded prediction band is very wide, which signals the model is saying:
+
+“Sales will increase, but I can’t predict the exact number with high certainty.”
+
+This happens when historical data has:
+
+too many spikes
+
+irregular seasonality
+
+missing patterns
+
+Action:
+You need to break forecasting down by:
+
+product category
+
+region
+
+or weekly aggregation
+
+This will reduce noise and increase accuracy.
+
+4. California dominates total sales and will heavily influence your forecast accuracy.
+
+The “Sum of Sales by State” bar chart shows:
+
+California massively outweighs other states
+
+New York is a distant second
+
+Most other states barely contribute
+
+If California has volatile behavior, your total sales prediction will also be volatile.
+
+Action:
+Forecast separately for top states instead of aggregating everything.
+
+5. Your model is picking up a post–holiday dip followed by a recovery.
+
+End of December → early January shows a drop (historical trend).
+The forecast expects a stabilized recovery, which aligns with typical retail behavior after holidays.
+
+This is why the first few forecast points are lower, then rise gradually.
 
 📁 Tools & Techniques Used
 
